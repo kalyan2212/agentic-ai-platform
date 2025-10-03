@@ -1,0 +1,28 @@
+# Core dependencies
+pydantic>=2.0.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+redis>=4.5.0
+
+# Data generation and processing
+faker>=18.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Agent framework
+langchain>=0.1.0
+openai>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Logging and monitoring
+structlog>=23.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
